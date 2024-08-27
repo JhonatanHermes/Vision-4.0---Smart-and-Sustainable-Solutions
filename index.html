@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visão 4.0</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Visão 4.0</h1>
+        <p>Visão 4.0 é uma empresa inovadora dedicada a transformar o futuro das cidades através de soluções inteligentes e sustentáveis. Especializada em tecnologias avançadas e gestão eficiente, nossa missão é criar ambientes urbanos mais conectados, eficientes e ecológicos, promovendo um equilíbrio entre o progresso tecnológico e a preservação ambiental.</p>
+    </header>
+
+    <h2><strong>Cidade Inteligente e Sustentável</strong></h2>
+
+    <div class="menu">
+        <div class="dropdown">
+            <button class="menu-item dropdown-toggle" onclick="toggleDropdown()">Menu</button>
+            <div id="dropdown-content" class="dropdown-content">
+                <button class="dropdown-item" onclick="showContent('home')">Comece por aqui</button>
+                <button class="dropdown-item" onclick="showContent('about')">Conheça nossa empresa</button>
+                <button class="dropdown-item" onclick="showContent('contact')">Entre em contato</button>
+                <button class="dropdown-item" onclick="showContent('solutions')">Soluções</button>
+                <a href="elementos.html" target="_blank">
+                    <button class="dropdown-item">Explicação dos Elementos</button>
+                </a>
+                <a href="atualizacoes.html" target="_blank">
+                    <button class="dropdown-item">Atualizações do Projeto</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="content" class="content">
+        <p><strong>Seja bem vindo ao futuro.</strong></p>
+    </div>
+
+    <div class="image-container">
+        <img src="smart.jpeg" alt="Cidade do Futuro" class="centered-image">
+    </div>
+    
+    <script src="new_script.js"></script>
+</body>
+</html>
